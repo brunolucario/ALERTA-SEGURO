@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffd3db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #CB6CE6;
+    height: 2cm;
+    box-shadow: 0 4px 2px -2px gray;
+    padding: 0 20px;
+}
+
+header img {
+    height: 100%;
+}
+
+header nav {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffd3db;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.cadastro-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.section h3 {
+    margin-bottom: 10px;
+    color: #CB6CE6;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.cadastro-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #CB6CE6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
